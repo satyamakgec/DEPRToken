@@ -12,8 +12,8 @@
     "migrate:local": "truffle migrate",
     "migrate:ropsten": "truffle migrate --network=ropsten --reset",
     "migrate:mainnet": "truffle migrate --network=mainnet --reset",
-    "flatten-token": "truffle-flattener contracts/Token.sol >> Token.sol",
-    "flatten-presale": "truffle-flattener contracts/PreSale.sol >> PreSale.sol"
+    "flatten-token": "truffle-flattener contracts/DEPRToken.sol >> Token.sol",
+    "flatten-presale": "truffle-flattener contracts/DEPRPreSale.sol >> PreSale.sol"
   },
   "keywords": [
     "ERC20",
