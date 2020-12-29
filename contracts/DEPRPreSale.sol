@@ -24,7 +24,7 @@ contract DEPRPreSale is ReentrancyGuard, Ownable {
     /// Once late phase cap is achieved sale become closed.
 
     uint256 constant public EARLY_PHASE_CAP = 50 ether;
-    uint256 constant public LATE_PHASE_CAP = 100 ether;
+    uint256 constant public LATE_PHASE_CAP = 50 ether;
 
     uint256 constant public EARLY_PHASE_MINIMUM_INVESTMENT_CAP = 2 ether / 10;
     uint256 constant public LATE_PHASE_MINIMUM_INVESTMENT_CAP = 1 ether / 10;
